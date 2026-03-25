@@ -1,3 +1,5 @@
+/*Goka_Zesty theme*/
+
 @import url("https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/colorschemes/cyan.css");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 body,
@@ -134,10 +136,10 @@ h4 {
 }
 
 /* hides trailer tab */
-button.emby-tab-button:nth-child(3) {
+/*button.emby-tab-button:nth-child(3) {
     display: none;
 }
-
+*/
 /* Hide track selection box logic */
 
 .trackSelections > *:nth-child(n + 3) {
@@ -277,7 +279,7 @@ button.emby-tab-button:nth-child(3) {
 .layout-desktop .btnPlay {
     background-color: rgb(var(--white));
     color: rgb(var(--darkest)) !important;
-    margin-right: 3vw !important;
+    /*margin-right: 3vw !important;*/
     border-radius: calc(var(--rounding) + 2px) !important;
 }
 
